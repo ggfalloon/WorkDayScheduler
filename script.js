@@ -2,11 +2,10 @@ $(document).ready(function () {
 
     var currentDay = $("#currentDay");
     var currentHour = moment().format("H");
-    var agendaItem = $("<textarea>");
-    var saveItem = $(".saveBtn");
 
     // Display current Day
     currentDay.text(moment().format('dddd, LL'));
+
 
     // Function to determine current hour and corresponding background color
     $(".inputBlock").each(thisHour);
@@ -23,15 +22,29 @@ $(document).ready(function () {
             $(this).addClass("future");
         }
     }
-    // Save text placed in text area to local storage
 
-    // $(saveItem).click(function () {
-    //     var store = $(this).val(agendaItem);
-    //     if (localStorage.getItem())
+    // //  Save user input text to local storage when save button is clicked
 
-    //         localStorage.setItem("", JSON.stringify(agendaItem))
+    $(".saveBtn").on("click", function (event) {
+        event.preventDefault();
 
-    // }
+        var agendaItem = $("#userInput").val();
 
+        for (var i = 0; i < agendaItem.length; i++) {
 
-});  
+            if (agendaItem != null) {
+                localStorage.setItem("info", agendaItem);
+            };
+        }
+
+        console.log(agendaItem);
+
+        // User input remains when browser is refreshed
+        // function storeValue() {
+        //     var agendaText = localStorage.getItem("info");
+        //     $(agendaText).te(agendaItem);
+        // }
+        // storeValue();
+    })
+
+});
