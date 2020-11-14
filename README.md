@@ -6,7 +6,7 @@ The Workday Scheduler utilizes Moment.js to display the day of the week and curr
 
 ## Usage
 
-URL - 
+URL - https://ggfalloon.github.io/WorkDayScheduler/
 
 * Past Hour - Gray color with white text.
 * Present Hour - Red color with black text.
@@ -14,7 +14,7 @@ URL -
 
 Simply click the hour block you'd like to add an event, appointment or meeting. Click the blue save button to save the item to the appointed hour. Even when you refresh, your input is saved.
 
-<!-- image -->
+![screencapture-ggfalloon-github-io-WorkDayScheduler-2020-11-14-15_34_51](https://user-images.githubusercontent.com/71281652/99157515-16d26c80-268f-11eb-90fb-5b84226f7797.png)
 
 ## Credits
 
