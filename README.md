@@ -2,7 +2,7 @@
 
 ## An interactive Workday Scheduler to organize your day.
 
-The Workday Scheduler utilizes Moment.js to display the day of the week and current day. Standard work day hour slots from 9am to 5pm are available for user input of important meetings or events throughout your day. The hours are even color coded to represent the past, present and current hours in real time.
+The Workday Scheduler utilizes Moment.js to display the day of the week and current day. Standard work day hour slots from 9am to 5pm are available for user input of important meetings or events throughout your day. The hours are even color coded to represent the past, present and current hours in real time. Great for effective time management!
 
 ## Usage
 

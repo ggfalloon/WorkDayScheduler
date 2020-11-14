@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    /* line-height: 1; */
   }
 
   .grid-cell {
@@ -53,21 +52,14 @@ body {
   }
   
   .row {
-    /* white-space: pre-wrap; */
-    /* height: 80px;
-    border-top: .5px solid white; */
     padding: 0;
   }
   
   .hour {
     background-color: #ffffff;
     color: #000000;
-    
-    /* border-spacing: 10em; */
-    /* padding-top: 5px; */
     text-align: right;
     margin-top: 5px;
-
   }
   
   .past {
@@ -93,8 +85,6 @@ body {
     color: white;
     width: 100%;
     height: 100%;
-    /* line-height: 1.99em; */
-    
   }
   
   .saveBtn i:hover {
