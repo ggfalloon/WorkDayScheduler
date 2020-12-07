@@ -16,6 +16,11 @@ body {
     
   }
 
+  #main-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem 2rem;
+  }
+
   ul {
     display: inline-block;
     
@@ -29,7 +34,7 @@ body {
   }
 
   #present {
-    color: #ff6961;
+    color: #d8827e;
     border: none;
     font-size: 20px;
     font-weight: bold;
@@ -67,6 +72,10 @@ body {
       margin-right: auto;
       padding-bottom: 1em;
   }
+
+  .key {
+    text-align: center;
+  }
   
   .description{
     white-space: pre-wrap;
@@ -94,12 +103,12 @@ body {
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #ec938e;
     color: #000000;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: #acebac;
     color: #000000;
   }
   
