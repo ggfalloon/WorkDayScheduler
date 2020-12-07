@@ -23,4 +23,4 @@ Simply click the hour block you'd like to add an event, appointment or meeting. 
 * W3Schools.com
 
 # License
-[MIT LICENSE](LICENSE)
+[MIT LICENSE](LICENSE) &copy; Gabriele Falloon - ggfalloon@gmail.com
