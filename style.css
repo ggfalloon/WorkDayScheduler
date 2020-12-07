@@ -15,6 +15,15 @@ body {
       margin-top: 5px;
     
   }
+
+  ul {
+    display: inline-block;
+    
+  }
+
+  #past {
+    color: #d3d3d3;
+  }
   
   textarea{
     background: transparent;
