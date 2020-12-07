@@ -23,6 +23,23 @@ body {
 
   #past {
     color: #7a7777;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #present {
+    color: #ff6961;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #future {
+    color: #77dd77;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
   }
   
   textarea{
