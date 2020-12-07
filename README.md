@@ -21,3 +21,6 @@ Simply click the hour block you'd like to add an event, appointment or meeting. 
 * jQuery.com
 * KhanAcademy.org
 * W3Schools.com
+
+# License
+[MIT LICENSE](LICENSE)
